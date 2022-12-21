@@ -72,6 +72,19 @@
 
 
 <style>
+@media (max-width: 769px) {
+  ul li{
+    font-size: 10px;
+  }
+}
+@media (max-width: 1107px) {
+  ul li{
+    font-size: 13px;
+  }
+  nav{
+    padding:0 9px !important;
+  }
+}
 body {
   direction: rtl;
 }
