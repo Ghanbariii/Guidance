@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="animate__animated animate__fadeIn">
     <Navigation />
     <div class="header">
       <div class="header__banner md:block absolute hidden">
@@ -45,20 +45,45 @@
           <img src="../assets/img/guides/rezerv-guide/1.png" alt="Guide Banner Number one">
         </div>
       </div>
-      
+
     </div>
-    <div class="first-step__part2 px-16">
-          <span class="font-medium text-2xl leading-loose">توجه داشته باشید</span>
-          <p class="font-light text-xl leading-loose">
-            که بعد از لمس دکمه رزرو سفارش ، پیغامی دریافت میکنید<br /> که در آن امکان انتخاب زمان بارگیری سفارش را خواهید داشت
-            ، با لمس گزینه سایر امکان وارد کردن تعداد روزهای مورد نظر را خواهید داشت.
-          </p>
-        </div>
+    <div class="first-step__part2 lg:px-16 xl:px-44 lg:flex">
+      <img src="../assets/img/guides/rezerv-guide/1_2.jpg" alt="Reservetion Guide">
+      <div class="flex justify-center lg:items-end leading-loose">
+        <p class="font-light text-lg lg:text-xl px-20 md:px-32 lg:px-20 pt-10 text-justify xl:px-0 sm:leading-loose justify-center">
+          <span class="font-medium text-xl lg:text-2xl ">توجه داشته باشید</span> <br />
+          که بعد از لمس دکمه رزرو سفارش ، پیغامی دریافت میکنید<br /> که در آن امکان <span class="font-medium">انتخاب
+            زمان بارگیری سفارش</span> را خواهید
+          داشت
+          ، با لمس گزینه سایر امکان وارد کردن تعداد روزهای مورد نظر را خواهید داشت.
+        </p>
+      </div>
+    </div>
+    <div class="arrow_part hidden lg:block">
+      <svg width="777" height="250" viewBox="0 0 884 357" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M29.9714 36.7819L29.9712 131.615C29.9712 150.948 45.6443 166.622 64.976 166.622L811.455 166.622C830.786 166.622 846.46 182.297 846.46 201.63L846.46 356.782"
+          stroke="#5D6569" stroke-dasharray="10 10" />
+        <path
+          d="M414 165.486C415.333 166.256 415.333 168.18 414 168.95L396 179.342C394.667 180.112 393 179.15 393 177.61L393 156.825C393 155.286 394.667 154.324 396 155.093L414 165.486Z"
+          fill="#B8C4DF" />
+        <path
+          d="M456.5 163.62C458.5 164.774 458.5 167.661 456.5 168.816L435.5 180.94C433.5 182.095 431 180.652 431 178.342L431 154.093C431 151.784 433.5 150.341 435.5 151.495L456.5 163.62Z"
+          fill="#3B5184" />
+        <path
+          d="M493 165.486C494.333 166.256 494.333 168.18 493 168.95L478 177.61C476.667 178.38 475 177.418 475 175.878L475 158.558C475 157.018 476.667 156.056 478 156.825L493 165.486Z"
+          fill="#B8C4DF" />
+      </svg>
+    </div>
   </div>
 </template>
 
 <style>
 @import '@/assets/css/fonts.css';
+
+.body{
+  animation :animate__slideInDown;
+}
 
 
 @media (max-width: 768px) {
@@ -82,6 +107,21 @@
     color: #3B5184;
     font-family: medium;
   }
+  .first-step__part2 img {
+  width: 362px !important;
+  height: 364px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+}
+
+@media (max-width: 1024px) {
+  .first-step__part2 img {
+  width: 362px !important;
+  height: 364px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 }
 
 
@@ -115,8 +155,22 @@
   color: #EB3627;
 
 }
-.first-step__part2 span{
+
+.first-step__part2 p {
+  color: #4B5155
+}
+
+.first-step__part2 span {
   color: #3B5184;
+}
+
+.first-step__part2 img {
+  width: 324px;
+  height: 322px;
+}
+.arrow_part svg{
+  position: absolute;
+  left:300px;
 }
 </style>
 <script>

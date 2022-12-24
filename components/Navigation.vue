@@ -26,7 +26,7 @@
     <label class="menu-icon block cursor-pointer md:hidden px-2 py-4 relative select-none" for="menu-btn">
       <span class="navicon flex items-center relative"></span>
     </label>
-    <ul class="menu border-b md:border-none flex justify-evenly list-reset m-0 w-full md:w-auto font-regular text-lg navbar__right">
+    <ul class="menu border-b md:border-none flex justify-evenly list-reset m-0 w-full md:w-auto font-regular text-lg navbar__right animate__animated animate__slideInRight">
       <li class="border-t md:border-none ">
         <a href="/"
           class="block md:inline-block px-4 py-3 no-underline">پنل های کاروان 
@@ -48,7 +48,7 @@
           </a>
       </li>
     </ul>
-    <ul class="menu border-b md:border-none flex list-reset m-0 w-full md:w-auto mr-auto text-lg customize-color">
+    <ul class="menu border-b md:border-none flex list-reset m-0 w-full md:w-auto mr-auto text-lg customize-color animate__animated animate__slideInRight animate__animated">
       <li class="border-t md:border-non">
         <a href="/"
           class="block md:inline-block px-4 py-3 no-underline font-regular">سفارشات
