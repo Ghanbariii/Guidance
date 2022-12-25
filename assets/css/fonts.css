@@ -51,3 +51,11 @@
 .font-ultra-light {
     font-family: "ultra-light", sans-serif;
 }
+
+.order-first{
+    order:-10000000 !important;
+}
+
+.order-last{
+    order:10000000 !important;
+}
