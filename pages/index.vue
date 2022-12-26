@@ -53,7 +53,7 @@
       <div class="flex justify-center lg:items-end leading-loose">
         <p
           class="font-light text-lg lg:text-xl px-20 md:px-32 lg:px-20 pt-10 text-justify xl:px-0 sm:leading-loose justify-center">
-          <span class="font-medium text-xl lg:text-2xl ">توجه داشته باشید</span> <br />
+          <span class="font-medium text-xl lg:text-2xl">توجه داشته باشید</span> <br />
           که بعد از لمس دکمه رزرو سفارش ، پیغامی دریافت میکنید<br /> که در آن امکان <span class="font-medium">انتخاب
             زمان بارگیری سفارش</span> را خواهید
           داشت
@@ -89,7 +89,7 @@
         </p>
         <img src="../assets/img/guides/rezerv-guide/warning.png" class="mt-6 warning-walet">
         <p class="second-step__lastItem font-light text-lg lg:text-xl mt-5">
-          <span class="font-medium text-lg xl:text-2xl "> توجه داشته باشید</span> <br />
+          <span class="font-medium text-xl lg:text-2xl "> توجه داشته باشید</span> <br />
           درصورتیکه موجودی کیف پول، کافی نباشد پیغام بالا را در صفحه مشاهده خواهید کرد و امکان رزرو بار را نخواهید داشت.
           با لمس گزینه<span class="font-medium"> “افزایش موجودی”</span> امکان شارژ کیف پول کاروان فراهم می شود.
         </p>
@@ -125,15 +125,16 @@
           fill="#B8C4DF" />
       </svg>
     </div>
-    <div class="third-part lg:flex lg:items-center xl:px-32 mt-20 lg:mt-52 px-2">
+    <div class="third-part lg:flex lg:items-center xl:px-32 mt-20 lg:mt-52 px-8">
       <div class="third-part__title">
         <p class="first-step__title font-medium text-base mt-5 w-24 h-10 pt-2 pr-6">
           گام سوم
         </p>
         <div class="third-part__subtitle font-light">
-          <p class="text-lg lg:text-2xl">
+          <p class="text-lg lg:text-2xl mt-4 ">
             با لمس آیکون
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+              class="icons">
               <circle cx="16" cy="16" r="16" fill="#3B5184" />
               <path
                 d="M22.1175 13.6136H15.9398C15.4573 13.6136 15.0573 13.2024 15.0573 12.7064C15.0573 12.2105 15.4573 11.7993 15.9398 11.7993H22.1175C22.5999 11.7993 23 12.2105 23 12.7064C23 13.2024 22.6117 13.6136 22.1175 13.6136Z"
@@ -183,7 +184,7 @@
           fill="#B8C4DF" />
       </svg>
     </div>
-    <div class="fourth-part lg:flex  xl:px-32 mt-20 lg:mt-44 px-2">
+    <div class="fourth-part lg:flex  xl:px-32 mt-20 lg:mt-44 px-8">
       <div class="fourth-part__part pr-0 lg:pr-12 mt-16 order-last">
         <p class="first-step__title font-medium text-base mt-5 w-24 h-10 pt-2 pr-4 mr-8">
           گام چهارم
@@ -236,24 +237,101 @@
         </div>
       </div>
       <div class="fourth-part__image order-first mt-10">
-        <img src="../assets/img/guides/rezerv-guide/4.png" class="">
+        <img src="../assets/img/guides/rezerv-guide/4.png">
       </div>
     </div>
-    <div class="fifth-part lg:flex xl:px-32 mt-20 lg:mt-32 px-2 flex items-center">
-      <div class="fifth-part__subtitle">
+    <div class="foruth-part__2 block lg:flex xl:px-32 mt-20 lg:mt-32 px-8 items-center">
+      <div class="fourth-part__2-subtitle px-3">
         <div>
-          <span class="font-medium text-md lg:text-2xl block">
+          <span class="font-medium text-xl lg:text-2xl block">
             توجه داشته باشید
           </span>
         </div>
-        <p class=" font-light text-md lg:text-xl">
+        <p class=" font-light text-md lg:text-xl ">
           که با لمس آیکون
-            <img src="../assets/img/guides/account-icon.png">
+          <span>
+            <img src="../assets/img/guides/account-icon.png" class="icons">
+          </span>
           در هر سفارش ، صفحه روبرو باز خواهد شد که در آن امکان مشاهده راننده های آن سفارش راخواهید داشت.
         </p>
       </div>
-      <img src="../assets/img/guides/rezerv-guide/4_2.png">
+      <img src="../assets/img/guides/rezerv-guide/4_2.png" class="fourth-part__2-image mt-12 lg:mt-0">
     </div>
+    <div class="fourth-arrow hidden xl:block">
+      <svg width="777" height="250" viewBox="0 0 884 357" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M854.029 36.7819L854.029 131.615C854.029 150.948 838.356 166.622 819.024 166.622L72.5451 166.622C53.2135 166.622 37.5403 182.297 37.5403 201.63L37.5403 356.782"
+          stroke="#5D6569" stroke-dasharray="10 10" />
+        <path
+          d="M470 165.486C468.667 166.256 468.667 168.18 470 168.95L488 179.342C489.333 180.112 491 179.15 491 177.61L491 156.825C491 155.286 489.333 154.324 488 155.093L470 165.486Z"
+          fill="#B8C4DF" />
+        <path
+          d="M427.5 163.62C425.5 164.774 425.5 167.661 427.5 168.816L448.5 180.94C450.5 182.095 453 180.652 453 178.342L453 154.093C453 151.784 450.5 150.341 448.5 151.495L427.5 163.62Z"
+          fill="#3B5184" />
+        <path
+          d="M391 165.486C389.667 166.256 389.667 168.18 391 168.95L406 177.61C407.333 178.38 409 177.418 409 175.878L409 158.558C409 157.018 407.333 156.056 406 156.825L391 165.486Z"
+          fill="#B8C4DF" />
+      </svg>
+    </div>
+    <div class="fifth-part lg:flex xl:px-32 mt-20 lg:mt-52 px-8">
+      <div class="fifth-part__title">
+        <p class="first-step__title font-medium text-base mt-5 w-24 h-10 pt-2 pr-6">
+          گام پنجم
+        </p>
+        <div class="fifth-part__subtitle font-light">
+          <p class="text-lg lg:text-xl mt-4 ">
+            <span class="font-medium">
+              به منظور تغییر اولویت سفارشات رزرو شده
+            </span>
+            امکان جابجایی سفارش مورد نظر با نگه داشتن آن سفارش با انگشت و کشیدن و رها کردن آن در جای دلخواه فراهم شده
+            است.
+          </p>
+          <p class="text-lg lg:text-xl mt-8">
+            <span class="font-medium text-xl lg:text-2xl">
+              توجه داشته باشید
+            </span> <br />
+            امکان تغییر اولویت بندی سفارشات وجود دارد.
+          </p>
+        </div>
+        <div class="first-step__warning flex mt-4 font-regular text-md md:text-lg ">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+          </svg>
+          <p class="pr-4">
+            در تعیین اولویت بندی لیست توجه و دقت کافی را داشته باشید.
+          </p>
+        </div>
+      </div>
+      <div class="fifth-part__image mt-20 lg:mt-2">
+        <img src="../assets/img/guides/rezerv-guide/5.png">
+      </div>
+    </div>
+    <div class="sixth-part px-8 xl:px-40 lg:flex">
+      <div class="flex justify-center lg:items-end leading-loose order-last">
+        <p
+          class="font-light text-lg lg:text-xl px-8 md:px-20 lg:px-2 0 pt-10 text-justify xl:px-0 sm:leading-loose justify-center xl:mb-16">
+          <span class="font-medium text-xl lg:text-2xl">توجه داشته باشید</span> <br />
+          که بعد از لمس آیکون
+          <span>
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+              class="icons">
+              <rect width="32" height="32" rx="5" fill="#3B5184" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M6.36969 10.1987C6.78625 9.87811 7.3857 9.95348 7.7086 10.367L12.4271 16.4097C12.7976 16.8716 13.4874 16.961 13.9719 16.5917L17.7152 13.6676C19.0306 12.6586 20.9179 12.8954 21.936 14.2032L21.9369 14.2044L26.8017 20.4745C27.1233 20.889 27.0455 21.4839 26.628 21.8031C26.2104 22.1224 25.6112 22.0452 25.2896 21.6307L20.4257 15.3618C20.0544 14.8854 19.3682 14.7966 18.8851 15.1647L15.1417 18.0889C13.8285 19.0962 11.9468 18.8616 10.9275 17.5819L10.9218 17.5747L6.20012 11.5278C5.87722 11.1143 5.95314 10.5192 6.36969 10.1987Z"
+                fill="white" />
+            </svg>
+
+          </span>
+          در صفحه سفارشات رزرو ء‌ امکان مشاهده آمار نوبت ها را خواهید داشت.
+        </p>
+      </div>
+      <div class="sixth-part__image order-first">
+        <img src="../assets/img/guides/rezerv-guide/5_1.png">
+      </div>
+    </div>
+    <Footer />
   </div>
 </template>
 
@@ -315,6 +393,12 @@
     margin-right: auto !important;
   }
 
+  .fourth-part__2-image {
+    width: 400px;
+    height: 431.43px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 
 }
 
@@ -353,7 +437,30 @@
     margin-right: auto !important;
   }
 
+  .fourth-part__2-image {
+    width: 400px;
+    height: 431.43px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .fifth-part__image {
+    width: 446px !important;
+    height: 450px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .sixth-part__image {
+    width: 414px !important;
+    height: 506.9px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+
 }
+
 
 
 .header__banner {
@@ -445,8 +552,9 @@
   right: 300px;
 }
 
-.third-part__subtitle {
+.third-part__subtitle p {
   color: #666666;
+  line-height: 45px;
 }
 
 .third-part__image {
@@ -456,7 +564,7 @@
 
 .third-part__arrow_part {
   position: absolute;
-  top: 3000px;
+  top: 3050px;
   left: 300px;
 }
 
@@ -492,8 +600,60 @@
 .fourth-part__warning_2 p {
   line-height: 30px;
 }
-.fifth-part__subtitle span{
+
+.fourth-part__2-subtitle span {
   color: #3B5184;
+}
+
+.fourth-part__2-subtitle p {
+  color: #4B5155;
+  line-height: 40px;
+}
+
+.fourth-part__2-image {
+  width: 400px;
+  height: 431.43px;
+}
+
+.icons {
+  border: 0;
+  display: inline;
+  margin: 0 2px;
+  box-shadow: none;
+}
+
+.fourth-arrow {
+  position: absolute;
+  top: 4250px;
+  left: 350px;
+}
+
+.fifth-part__subtitle span {
+  color: #3B5184;
+}
+
+.fifth-part__subtitle p {
+  color: #4B5155;
+  line-height: 40px;
+}
+
+.fifth-part__image {
+  width: 1366px;
+  height: 550px;
+}
+
+.sixth-part span {
+  color: #3B5184;
+}
+
+.sixth-part p {
+  color: #4B5155;
+  line-height: 40px;
+}
+
+.sixth-part__image {
+  width: 414px !important;
+  height: auto;
 }
 </style>
 <script>
