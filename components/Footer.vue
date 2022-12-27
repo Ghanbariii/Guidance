@@ -1,6 +1,6 @@
 <template>
-    <div class="footer ">
-        <div class="footer__title lg:px-36 mt-60">
+    <div class="footer">
+        <div class="footer__title lg:px-36 mt-60 px-8">
             <div class="flex">
                 <svg width="21" height="21" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -29,7 +29,7 @@
                     راستای مدیریت تمامی فرآیند های جایی کالا ارائه می دهد.
                 </p>
             </div>
-            <div class="flex justify-between px-8">
+            <div class=" justify-between px-8">
                 <div class="footer__lines block font-light text-xl lg:text-lg mt-12">
                     <ul class="flex items-center py-2">
                         <li class="circle block">
@@ -129,7 +129,7 @@
             </div>
         </div>
         <div class="footer__last font-light text-sm text-center w-full">
-            <p>
+            <p class="px-8">
                 کلیه حقوق محفوظ و متعلق به شرکت پیشگامان هوشمند شاهکار می باشد
             </p>
         </div>
@@ -144,7 +144,6 @@ export default {
 
 <style scoped>
 .footer-carvan {
-    width: 450px;
     color: #4B5155;
     line-height: 40px;
 }
@@ -162,6 +161,6 @@ export default {
 .footer__last p{
     background-color: #E6FAF2;
     color: #888888;
-    padding: 16px 0;
+    padding: 16px 0 !important;
 }
 </style>

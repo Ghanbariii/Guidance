@@ -49,10 +49,10 @@
 
     </div>
     <div class="first-step__part2 lg:px-16 xl:px-40 lg:flex">
-      <img src="../assets/img/guides/rezerv-guide/1_2.jpg" alt="Reservetion Guide">
+      <img src="../assets/img/guides/rezerv-guide/1_2.jpg" alt="Reservetion Guide" class="reservetion-pic">
       <div class="flex justify-center lg:items-end leading-loose">
         <p
-          class="font-light text-lg lg:text-xl px-20 md:px-32 lg:px-20 pt-10 text-justify xl:px-0 sm:leading-loose justify-center">
+          class="font-light text-lg lg:text-xl px-10 md:px-32 lg:px-20 pt-10 text-justify xl:px-0 sm:leading-loose justify-center">
           <span class="font-medium text-xl lg:text-2xl">توجه داشته باشید</span> <br />
           که بعد از لمس دکمه رزرو سفارش ، پیغامی دریافت میکنید<br /> که در آن امکان <span class="font-medium">انتخاب
             زمان بارگیری سفارش</span> را خواهید
@@ -209,9 +209,9 @@
           <svg style="width:24px;height:24px" viewBox="0 0 24 24">
             <path fill="currentColor" d="M12,2L1,21H23M12,6L19.53,19H4.47M11,10V14H13V10M11,16V18H13V16" />
           </svg>
-          <p class="pr-4 text-base lg:text-lg xl:text-xl flex">
+          <p class="pr-4 text-base lg:text-lg xl:text-xl">
             در صورت انصراف از رزرو سفارش ، آیکون
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="mx-2" xmlns="http://www.w3.org/2000/svg">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="inline mx-2" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_978_2954)">
                 <path
                   d="M16 9V19H8V9H16ZM14.5 3H9.5L8.5 4H5V6H19V4H15.5L14.5 3ZM18 7H6V19C6 20.1 6.9 21 8 21H16C17.1 21 18 20.1 18 19V7Z"
@@ -230,7 +230,7 @@
           <svg style="width:54px;height:54px" viewBox="0 0 24 24">
             <path fill="currentColor" d="M12,2L1,21H23M12,6L19.53,19H4.47M11,10V14H13V10M11,16V18H13V16" />
           </svg>
-          <p class="pr-4 text-base lg:text-lg xl:text-xl leading-loose">
+          <p class="pr-4 lg:text-lg xl:text-xl leading-loose">
             درصورتیکه “صدور نوبت بعدی هنگام تخصیص سفارش “ را در وضعیت فعال قرار دهید ، با تخصیص سفارش به شما ، نوبت به
             صورت خودکار صادر خواهد شد.
           </p>
@@ -346,39 +346,45 @@
 @media (max-width: 768px) {
   .header__title p {
     color: #24A973;
-    font-size: 22px;
+    font-size: 15px;
   }
 
   .header__subtitle p {
     padding: 0 24px;
-    font-size: 14px;
+    font-size: 24px;
     font-family: "medium";
+    text-align: justify;
   }
 
   .first-step__image {
-    width: 436px !important;
-    height: 420px !important;
+    width: 300px !important;
+    height: 320px !important;
   }
 
   .first-step__subtitle span {
     color: #3B5184;
     font-family: medium;
   }
+  .first-step__warning p {
+    text-align: center;
+  }
 
-  .first-step__part2 img {
-    width: 362px !important;
+  .reservetion-pic {
+    width: 162px !important;
     height: 364px !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
   .order-price-image {
-    width: 400px !important;
-    height: 415px !important;
+    width: 200px !important;
+    height: auto !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
-
+  .first-step__part2 p {
+    font-size: 18px;;
+  }
   .third-part__image {
     width: 372px !important;
     height: 374px !important;
@@ -399,13 +405,17 @@
     margin-left: auto !important;
     margin-right: auto !important;
   }
+  .fourth-part__warning{
+    font-size: 18px;
+    text-align: center;
+  }
 
 }
 
 @media (max-width: 1024px) {
   .first-step__part2 img {
-    width: 362px !important;
-    height: 364px !important;
+    width: 250px !important;
+    height: auto !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
@@ -417,43 +427,43 @@
   }
 
   .order-price-image {
-    width: 400px !important;
-    height: 415px !important;
+    width: 300px !important;
+    height: auto !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
   .third-part__image {
-    width: 452px !important;
-    height: 454px !important;
+    width: 352px !important;
+    height: auto !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
   .fourth-part__image {
-    width: 436px !important;
+    width: 336px !important;
     height: auto !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
   .fourth-part__2-image {
-    width: 400px;
-    height: 431.43px;
+    width: 300px !important;
+    height: auto !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
   .fifth-part__image {
-    width: 446px !important;
-    height: 450px !important;
+    width: 346px !important;
+    height: auto !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
   .sixth-part__image {
-    width: 414px !important;
-    height: 506.9px !important;
+    width: 314px !important;
+    height: auto !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
@@ -512,7 +522,7 @@
 
 .arrow_part svg {
   position: absolute;
-  left: 300px;
+  left: 500px;
 }
 
 .order-price-image {
@@ -652,7 +662,7 @@
 }
 
 .sixth-part__image {
-  width: 414px !important;
+  width: 314px !important;
   height: auto;
 }
 </style>
