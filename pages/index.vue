@@ -421,7 +421,7 @@
   }
 
   .arrow_part {
-    width: 377px !important;
+    width: 277px !important;
     height: 150px !important;
     left: 100px !important;
   }
@@ -521,12 +521,14 @@
 }
 
 .arrow_part svg {
+  width: 800px;
+  height: a uto;
   position: absolute;
-  left: 500px;
+  left: 600px;
 }
 
 .order-price-image {
-  width: 1966px;
+  width: 866px;
   height: auto;
 }
 
@@ -568,7 +570,7 @@
 }
 
 .third-part__image {
-  width: 896px;
+  width: 596px;
   height: auto;
 }
 
@@ -579,7 +581,7 @@
 }
 
 .fourth-part__image {
-  width: 1266px;
+  width: 766px;
   height: auto;
 }
 
@@ -648,7 +650,7 @@
 }
 
 .fifth-part__image {
-  width: 1366px;
+  width: 766px;
   height: 550px;
 }
 
